@@ -253,7 +253,14 @@ footer a:visited {
 }
 
 .logo {
-    width: 100%;
+    width: 95%;
     height: auto;
-    margin-left: auto;
+    display: block;
+    margin: auto;
+}
+.logosm {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
