@@ -93,6 +93,11 @@ a:visited {
 nav a {
     color: var(--accent);
     text-transform: uppercase;
+    background-color: var(--main);
+    padding: .5rem;
+}
+nav li {
+    margin-top: 2rem;
 }
 nav a:visited {
     color: var(--accent);
@@ -100,7 +105,6 @@ nav a:visited {
 
 .fltnav {
     position: absolute;
-    top: 1rem;
     width: 100%;
     
 }
@@ -108,12 +112,9 @@ nav a:visited {
     display: flex;
     justify-content: space-around;
 }
-.fltnav li {
-    background-color: var(--main);
-    padding: .5rem;
-}
 .flt {
     position: relative;
+    margin-bottom: 2rem;
 }
 
 nav ul {
@@ -145,7 +146,14 @@ p {
 
 .rounded {
     border-radius: 15rem;
+    margin: 2rem auto;
 }
+
+hr {
+    border: 1px solid var(--accent);
+    width: 35%;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -175,4 +183,11 @@ footer ul {
     margin-right: 30%;
     font-size: 2rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+footer > a {
+    font-size: 2rem;
+}
+footer a:visited {
+    color: var(--accent);
 }
