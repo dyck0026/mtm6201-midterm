@@ -130,9 +130,13 @@ nav a:visited {
 
 .white {
     background-color: white;
+    padding-bottom: .001rem;
 }
 .white h2 {
     padding-top: 1rem;
+}
+.white.wb {
+    vertical-align: bottom;
 }
 
 nav ul {
