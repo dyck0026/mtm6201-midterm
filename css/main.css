@@ -70,6 +70,7 @@ ul {
 
 
 :root {
+    --text: #33008a;
     --main: #6900a6;
     --second: #ba00db;
     --third: #ff00c3;
@@ -85,7 +86,7 @@ body {
 }
 
 a {
-    color: var(--main-color);
+    color: var(--text);
     text-decoration: none;
 }
 a:hover {
@@ -130,13 +131,13 @@ nav a:visited {
 
 .white {
     background-color: white;
-    padding-bottom: .001rem;
 }
 .white h2 {
     padding-top: 1rem;
 }
 .white.wb {
     vertical-align: bottom;
+    padding-bottom: .001rem;
 }
 
 nav ul {
@@ -147,7 +148,7 @@ nav ul {
 h1,h2,h3,h4 {
     text-transform: uppercase;
     text-align: center;
-    color: var(--main);
+    color: var(--text);
 }
 h1{
     font-size: 35px;
@@ -163,7 +164,7 @@ h4{
 }
 
 p {
-    color: var(--main);
+    color: var(--text);
 }
 .contact nav, .about nav {
     margin-bottom: 2rem;
@@ -180,15 +181,15 @@ header.contact, header.about {
 
 table {
     margin: auto;
-    border: 2px solid var(--main);
-    color: var(--main);
+    border: 2px solid var(--text);
+    color: var(--text);
     font-size: 1.5rem;
     background-color: var(--light);
     margin-bottom: 3rem;
     margin-top: 1rem;
 }
 td {
-    border: 2px solid var(--main);
+    border: 2px solid var(--text);
     padding: 1rem;
 }
 
@@ -205,7 +206,7 @@ hr {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .wrapper {
@@ -245,7 +246,14 @@ footer ul {
 }
 footer > a {
     font-size: 2rem;
+    color: var(--accent)
 }
 footer a:visited {
     color: var(--accent);
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
 }
